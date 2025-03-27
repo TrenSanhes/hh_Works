@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-image: url('./luna_planeta_kratery_346770_1920x1080.jpg');
+  font-family: 'Jost', sans-serif; /* Измените на нужный шрифт */
+}
+
+/* Наша форма */
+.App {
+  /* Эффект стекла */
+  border-radius: 15px; /* Округление по краям */
+  padding: 10px 20px; /* Изменение самой формы */
+  backdrop-filter: blur(5px); /* Эффект размытия стекла */
+  width: 500px;
+  border: 0.1px solid #282725; /* Бордюры */
+  box-shadow: 10px 10px 70px rgba(255, 255, 255, 0.3); /* Делает тень */
+  background-color: rgba(17, 189, 189, 0.18);
+  /* Полупрозрачный белый фон - 145, 225, 225, 0.18 */
+  
+  transition: transform 0.2s;
+  text-align: center;
+  margin: auto; /* Выравнивание по центру */
+  margin-top: 25px; /* Отступ сверху */
+  
+}
+
+.image-container {
+  position: relative; /* Для управления позиционированием */
+}
+
+.blurred-image {
+  width: 100%; /* Ширина изображения, можно настроить */
+  height: auto; /* Автоматическая высота для поддержания пропорций */
+  filter: blur(5px); /* Легкое размытие (настраивайте по необходимости) */
+}
+
+h1 {
+  font-size: x-large; /* ? */
+  text-align: center;
+  color: #b9c7c5; /* Цвет заголовка */
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  display: block; /* ??? */
+  width: 100%; /* Длина поля по всему блоку */
+  padding: 8px;
+  font-size: 12px; /* Размер текста в поле */
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  background-color:rgb(76, 83, 81); /* Цвет полей */
+  border: 1px solid rgba(171, 182, 182, 0.18); /* Цвет границ */
+}
+
+/* Радио-кнопки */
+input[type="radio"],
+/* Чебоксы */
+input[type="checkbox"] {
+    display: inline;
+    width: 10%;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #bbb; /* Цвет текста */
+  border: 1px solid #132c2e; /* Цвет границ */
+  background-color: rgb(76, 83, 81); /* Фон поля */
+}
+label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+  color: #bbcac6; /*#cdc5b4*/
+}
+button {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+  cursor: pointer; 
+  width: 40%;
+  font-size: 16px;
+  background-color: #45504d; /* Цвет кнопок */
+  color: #cdc5b4;   /* Цвет текста на кнопках */
+}
+textarea {
+    resize: none;
+    width: 98%;
+    min-height: 100px;
+    max-height: 150px;
+    background-color: rgb(76, 83, 81); /* Темно-серый фон */
+    border: 1px solid #444; /* Темно-серая граница */
+}
