@@ -44,7 +44,7 @@ fieldset {
 }
 
 input {
-  display: block; /* ? */
+  display: block; /* ??? */
   width: 100%; /* Длина поля по всему блоку */
   padding: 8px;
   font-size: 12px; /* Размер текста в поле */
